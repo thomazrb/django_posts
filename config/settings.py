@@ -30,7 +30,7 @@ SECRET_KEY = env.str("SECRET_KEY")
 DEBUG = env.bool("DEBUG", default=False)
 
 ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'django-posts.fly.dev']
-CSRF_TRUSTED_ORIGINS = ["https://fly.io/apps/django-posts"]
+CSRF_TRUSTED_ORIGINS = ["https://django-posts.fly.dev"]
 
 # Application definition
 
